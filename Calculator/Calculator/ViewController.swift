@@ -36,20 +36,30 @@ class ViewController: UIViewController
         }
     }
     func performOperation(operation:(Double, Double) -> Double){
-        if operandstack.count >= 2 {
-            displayValue = operation(operandstack.removeLast(), operandstack.removeLast())
+        if operandStack.count >= 2 {
+            displayValue = operation(operandStack.removeLast(), operandStack.removeLast())
             enter()
         }
     }
     func multiply(op1: Double, op2: Double) -> Double{
         return op1 * op2
     }
-    func divide(op1: )
-    var operandstack: Array<Double> = []
+    func divide(op1: Double, op2: Double) -> Double{
+        return op1 / op2
+    }
+    func plus(op1: Double, op2: Double) -> Double{
+        return op1 + op2
+    }
+    func minus(op1: Double, op2: Double) -> Double{
+        return op1 - op2
+    }
+    
+    var operandStack = Array<Double>()
+    
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false
-        operandstack.append(displayValue)
-        print("operandStack = \(operandstack)")
+        operandStack.append(displayValue)
+        print("operandStack = \(operandStack)")
     }
     var displayValue: Double{
         get{
