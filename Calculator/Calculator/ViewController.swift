@@ -8,19 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController
-{
-    @IBOutlet weak var Display: UILabel!
-    var userIsInTheMiddleOfTypingANumber:Bool = false
+class ViewController: UIViewController{
+    @IBOutlet weak var display: UILabel!
     
     @IBAction func appendDigit(sender: UIButton) {
-        let digit = sender.currentTitle!
-        if userIsInTheMiddleOfTypingANumber{
-            Display.text = Display.text! + digit
-        }else{
-            Display.text = digit
-            userIsInTheMiddleOfTypingANumber = true
-        }
+        let digit = sender.currentTitle
+        print("digit = \(String(describing: digit))")
     }
     
 }
