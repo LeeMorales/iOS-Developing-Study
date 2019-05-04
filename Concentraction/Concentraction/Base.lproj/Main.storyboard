@@ -234,26 +234,19 @@
                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iqO-KX-U0J"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Flips:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHH-n0-s1O">
-                                <rect key="frame" x="118" y="717" width="139" height="68"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FlipCount:0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJD-gQ-Wj7">
+                                <rect key="frame" x="16" y="716" width="335" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="RHH-n0-s1O" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="0fJ-Oe-CTQ"/>
-                            <constraint firstItem="RHH-n0-s1O" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="B1K-Bx-8Mf"/>
-                            <constraint firstItem="RHH-n0-s1O" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="GkR-pg-MOL"/>
-                            <constraint firstItem="RHH-n0-s1O" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="139:812" id="HMO-PP-02k"/>
-                            <constraint firstItem="RHH-n0-s1O" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="SXe-PQ-W1J"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RHH-n0-s1O" secondAttribute="trailing" constant="16" id="z7K-N1-exy"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="flipCountLabel" destination="RHH-n0-s1O" id="aOg-HG-yqK"/>
+                        <outlet property="flipCountLabel" destination="NJD-gQ-Wj7" id="XxF-Ap-IVf"/>
                         <outletCollection property="cardButtons" destination="Exv-mR-5FH" collectionClass="NSMutableArray" id="IcM-fv-bGJ"/>
                         <outletCollection property="cardButtons" destination="hda-Oa-5Gw" collectionClass="NSMutableArray" id="oNJ-xF-iXS"/>
                         <outletCollection property="cardButtons" destination="SFb-Jo-T1I" collectionClass="NSMutableArray" id="xU6-kI-Kpp"/>
@@ -282,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-306" y="-15"/>
+            <point key="canvasLocation" x="-415.19999999999999" y="-38.423645320197046"/>
         </scene>
     </scenes>
 </document>
