@@ -2,25 +2,26 @@
 //  Card.swift
 //  Concentraction
 //
-//  Created by Lee Morales on 2019/5/5.
+//  Created by Lee Morales on 2019/5/9.
 //  Copyright © 2019 Lee Morales. All rights reserved.
 //
 
 import Foundation
 
 struct Card {
-    var isFaceup = false
+    var isFaceUp = false
     var isMatched = false
-    var identifier:Int
+    var identifier: Int
     
     static var identifierFactory = 0
-    static func getUniqueidentifier() -> Int{
+    
+    static func getUniqueIdentifier() -> Int {
         Card.identifierFactory += 1
-        return 0
+        return Card.identifierFactory
     }
         
+    init(){
+        self.identifier = Card.getUniqueIdentifier()
         
-    init() {
-        self.identifier = Card.getUniqueidentifier()
     }
 }
