@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    lazy var game: Concentraction = Concentraction(numberOfPairsOfCards: (cardButtons.count + 1) / 2)
+    lazy var game: Concentraction = Concentraction(numberOfPairsOfCards: numberOfPairsOfCards)
+    
+    var numberOfPairsOfCards: Int {
+            return ((cardButtons.count+1) / 2)
+    }
     
     var flipCount = 0 { didSet { flipCountLabel.text = "Flips: \(flipCount)" } }
     
@@ -39,7 +43,7 @@ class ViewController: UIViewController {
                 button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             }else{
                 button.setTitle("", for:UIControl.State.normal)
-                button.backgroundColor = card.isMatched ? #colorLiteral(red: 0.9506973624, green: 0.9854659438, blue: 0.9847254157, alpha: 0) : #colorLiteral(red: 1, green: 0.6216369271, blue: 0.4910389185, alpha: 1)
+                button.backgroundColor = card.isMatched ? #colorLiteral(red: 0.9506973624, green: 0.9854659438, blue: 0.9847254157, alpha: 0) : #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
             }
         }
     }
