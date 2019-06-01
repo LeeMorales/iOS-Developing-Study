@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		410C1AEF2284513A002A4E35 /* Concentraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C1AEE2284513A002A4E35 /* Concentraction.swift */; };
 		410C1AF1228451FB002A4E35 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C1AF0228451FB002A4E35 /* Card.swift */; };
+		41A9D21122A26DDF00E39EF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A9D21022A26DDF00E39EF1 /* Images.xcassets */; };
 		41BB8AAC227C88E8008DBF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */; };
 		41BB8AAE227C88E8008DBF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB8AAD227C88E8008DBF7E /* ViewController.swift */; };
 		41BB8AB1227C88E8008DBF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BB8AAF227C88E8008DBF7E /* Main.storyboard */; };
@@ -19,11 +20,12 @@
 /* Begin PBXFileReference section */
 		410C1AEE2284513A002A4E35 /* Concentraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentraction.swift; sourceTree = "<group>"; };
 		410C1AF0228451FB002A4E35 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		41A9D21022A26DDF00E39EF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41BB8AA8227C88E8008DBF7E /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BB8AAD227C88E8008DBF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41BB8AB0227C88E8008DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		41BB8AB2227C88E9008DBF7E /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Contents.json; path = "/Users/leemorales/Developer/iOS-Developing-Study/Concentraction/Concentraction/Supporting Files/Assets.xcassets/Image.imageset/Contents.json"; sourceTree = "<absolute>"; };
+		41BB8AB2227C88E9008DBF7E /* Contents.json */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		41BB8AB5227C88E9008DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BB8AB7227C88E9008DBF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */,
+				41A9D21022A26DDF00E39EF1 /* Images.xcassets */,
 				41BB8AB2227C88E9008DBF7E /* Contents.json */,
 				41BB8AB4227C88E9008DBF7E /* LaunchScreen.storyboard */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BB8AB6227C88E9008DBF7E /* LaunchScreen.storyboard in Resources */,
+				41A9D21122A26DDF00E39EF1 /* Images.xcassets in Resources */,
 				41BB8AB3227C88E9008DBF7E /* Contents.json in Resources */,
 				41BB8AB1227C88E8008DBF7E /* Main.storyboard in Resources */,
 			);
@@ -305,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
 				INFOPLIST_FILE = Concentraction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +318,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
 				INFOPLIST_FILE = Concentraction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
