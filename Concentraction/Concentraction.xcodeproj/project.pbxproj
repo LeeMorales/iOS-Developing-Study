@@ -20,8 +20,8 @@
 /* Begin PBXFileReference section */
 		410C1AEE2284513A002A4E35 /* Concentraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentraction.swift; sourceTree = "<group>"; };
 		410C1AF0228451FB002A4E35 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		415629FF22A410B3002E7F8F /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemorales/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
 		41A9D21022A26DDF00E39EF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		41BB8AA8227C88E8008DBF7E /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BB8AAD227C88E8008DBF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41BB8AB0227C88E8008DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				41BB8AAA227C88E8008DBF7E /* Concentraction */,
-				41BB8AA9227C88E8008DBF7E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		41BB8AA9227C88E8008DBF7E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41BB8AA8227C88E8008DBF7E /* Concentraction.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41BB8AAA227C88E8008DBF7E /* Concentraction */ = {
@@ -98,7 +89,7 @@
 			);
 			name = Concentraction;
 			productName = Concentraction;
-			productReference = 41BB8AA8227C88E8008DBF7E /* Concentraction.app */;
+			productReference = 415629FF22A410B3002E7F8F /* Concentraction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +119,7 @@
 				Base,
 			);
 			mainGroup = 41BB8A9F227C88E8008DBF7E;
-			productRefGroup = 41BB8AA9227C88E8008DBF7E /* Products */;
+			productRefGroup = 41BB8A9F227C88E8008DBF7E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -305,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
@@ -326,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
