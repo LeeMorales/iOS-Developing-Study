@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		410C1AEE2284513A002A4E35 /* Concentraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentraction.swift; sourceTree = "<group>"; };
 		410C1AF0228451FB002A4E35 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		415629FF22A410B3002E7F8F /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemorales/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
+		41562A0022A42557002E7F8F /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemorales/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
 		41A9D21022A26DDF00E39EF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BB8AAD227C88E8008DBF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 			);
 			name = Concentraction;
 			productName = Concentraction;
-			productReference = 415629FF22A410B3002E7F8F /* Concentraction.app */;
+			productReference = 41562A0022A42557002E7F8F /* Concentraction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
