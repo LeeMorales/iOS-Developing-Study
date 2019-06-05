@@ -31,6 +31,7 @@
                                 <state key="normal" title="7"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRo-Fr-LK0"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qmV-5c-jLv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5W-S2-xev">
@@ -40,6 +41,7 @@
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dE1-w9-81d"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AQl-ir-Am1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="961-p9-qKq">
@@ -49,6 +51,7 @@
                                 <state key="normal" title="9"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dk2-6h-WuQ"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="owZ-E0-nPF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUm-Jl-43l">
@@ -58,6 +61,7 @@
                                 <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GI6-dP-QCU"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4F7-2P-fff"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DS1-e2-w8n">
@@ -67,6 +71,7 @@
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFQ-cZ-GUF"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Md-0I-4mG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EB7-Eb-Yp9">
@@ -76,6 +81,7 @@
                                 <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KiS-mS-RIL"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dxE-Es-PiY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jew-OO-24x">
@@ -85,6 +91,7 @@
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1DX-t5-xje"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AbW-ap-0KX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ik7-W1-a2C">
@@ -94,6 +101,7 @@
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LBa-Ff-me8"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lag-hM-w5H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVk-DV-W4d">
@@ -103,6 +111,7 @@
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eel-ms-kAF"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Nn-bv-oEr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51n-pI-Mkd">
@@ -112,6 +121,7 @@
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9MD-gL-ydQ"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O2U-kH-W6w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMt-DL-Gip">
@@ -121,6 +131,7 @@
                                 <state key="normal" title="⏎"/>
                                 <connections>
                                     <action selector="appendDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jUO-aF-zfB"/>
+                                    <action selector="appendDigitWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CnP-8n-JNd"/>
                                 </connections>
                             </button>
                         </subviews>
