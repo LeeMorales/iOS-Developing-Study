@@ -17,26 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJX-K5-Cq5">
-                                <rect key="frame" x="106" y="224" width="108" height="120"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOL-JI-51v">
+                                <rect key="frame" x="53" y="222" width="214" height="125"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="rJX-K5-Cq5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="Mar-s2-2ET"/>
-                            <constraint firstItem="rJX-K5-Cq5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="204" id="QLN-6N-eW9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rJX-K5-Cq5" secondAttribute="bottom" constant="224" id="hqO-5I-CPL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rJX-K5-Cq5" secondAttribute="trailing" constant="106" id="kkE-9G-ksb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eOL-JI-51v" secondAttribute="bottom" constant="221" id="04F-cI-eEn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eOL-JI-51v" secondAttribute="trailing" constant="53" id="4Dw-Xe-jNA"/>
+                            <constraint firstItem="eOL-JI-51v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="ay5-Xw-1et"/>
+                            <constraint firstItem="eOL-JI-51v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="fgh-9X-3sr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-178" y="392"/>
+            <point key="canvasLocation" x="-937.5" y="355.98591549295776"/>
         </scene>
     </scenes>
 </document>
