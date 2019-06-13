@@ -13,6 +13,7 @@ struct ContentView : View {
     var body: some View {
         List(rooms) { room in
             Image(systemName: "photo")
+                .cornerRadius(16)
             VStack(alignment: .leading){
                 Text(room.name)
                 Text("\(room.capacity) People")
@@ -20,6 +21,7 @@ struct ContentView : View {
                     .foregroundColor(.secondary)
             }
         }
+        
     }
 }
 
