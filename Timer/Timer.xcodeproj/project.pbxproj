@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4113F0F122B23DB4007CBEC7 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		4113F0F522B254F6007CBEC7 /* Rooms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rooms.entitlements; sourceTree = "<group>"; };
 		416EBE9122B145E7009CC182 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		416EBE9422B145E7009CC182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		416EBE9622B145E7009CC182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		416EBE8822B145E7009CC182 = {
 			isa = PBXGroup;
 			children = (
+				4113F0F522B254F6007CBEC7 /* Rooms.entitlements */,
 				416EBE9322B145E7009CC182 /* Timer */,
 				416EBE9222B145E7009CC182 /* Products */,
 			);
@@ -288,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Timer/Preview\\ Content";
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
 				ENABLE_PREVIEWS = YES;
@@ -300,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lee.Rooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -309,7 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "Timer/Preview\\ Content";
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
 				ENABLE_PREVIEWS = YES;
@@ -321,6 +328,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Lee.Rooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
