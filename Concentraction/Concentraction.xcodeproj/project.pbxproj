@@ -20,6 +20,7 @@
 /* Begin PBXFileReference section */
 		410C1AEE2284513A002A4E35 /* Concentraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentraction.swift; sourceTree = "<group>"; };
 		410C1AF0228451FB002A4E35 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		417595A922B39248005DA8EE /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A9D21022A26DDF00E39EF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41BB8AAB227C88E8008DBF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BB8AAD227C88E8008DBF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		41BB8AB2227C88E9008DBF7E /* Contents.json */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		41BB8AB5227C88E9008DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BB8AB7227C88E9008DBF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41F3B71022A8037E0082E38A /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemorales/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				41BB8AAA227C88E8008DBF7E /* Concentraction */,
+				417595A922B39248005DA8EE /* Concentraction.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +90,7 @@
 			);
 			name = Concentraction;
 			productName = Concentraction;
-			productReference = 41F3B71022A8037E0082E38A /* Concentraction.app */;
+			productReference = 417595A922B39248005DA8EE /* Concentraction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
