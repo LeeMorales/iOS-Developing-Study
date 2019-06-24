@@ -3,31 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		411BE72E22C0F36C00D6DE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BE72D22C0F36C00D6DE0D /* AppDelegate.swift */; };
-		411BE73022C0F36C00D6DE0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BE72F22C0F36C00D6DE0D /* SceneDelegate.swift */; };
-		411BE73222C0F36C00D6DE0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411BE73122C0F36C00D6DE0D /* ViewController.swift */; };
-		411BE73522C0F36C00D6DE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411BE73322C0F36C00D6DE0D /* Main.storyboard */; };
-		411BE73722C0F36D00D6DE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411BE73622C0F36D00D6DE0D /* Assets.xcassets */; };
-		411BE73A22C0F36D00D6DE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411BE73822C0F36D00D6DE0D /* LaunchScreen.storyboard */; };
+		4113F0F222B23DB4007CBEC7 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113F0F122B23DB4007CBEC7 /* Room.swift */; };
+		4113F0F722B259D1007CBEC7 /* Room.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4113F0F622B259D1007CBEC7 /* Room.xcassets */; };
+		4113F0F922B26247007CBEC7 /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113F0F822B26247007CBEC7 /* RoomDetail.swift */; };
+		416EBE9522B145E7009CC182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416EBE9422B145E7009CC182 /* AppDelegate.swift */; };
+		416EBE9722B145E7009CC182 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416EBE9622B145E7009CC182 /* SceneDelegate.swift */; };
+		416EBE9922B145E7009CC182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416EBE9822B145E7009CC182 /* ContentView.swift */; };
+		416EBE9B22B145E9009CC182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416EBE9A22B145E9009CC182 /* Assets.xcassets */; };
+		416EBE9E22B145E9009CC182 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416EBE9D22B145E9009CC182 /* Preview Assets.xcassets */; };
+		416EBEA122B145E9009CC182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416EBE9F22B145E9009CC182 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		411BE72A22C0F36C00D6DE0D /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		411BE72D22C0F36C00D6DE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		411BE72F22C0F36C00D6DE0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		411BE73122C0F36C00D6DE0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		411BE73422C0F36C00D6DE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		411BE73622C0F36D00D6DE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		411BE73922C0F36D00D6DE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		411BE73B22C0F36D00D6DE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4113F0F122B23DB4007CBEC7 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		4113F0F622B259D1007CBEC7 /* Room.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Room.xcassets; sourceTree = "<group>"; };
+		4113F0F822B26247007CBEC7 /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
+		416EBE9122B145E7009CC182 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416EBE9422B145E7009CC182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		416EBE9622B145E7009CC182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		416EBE9822B145E7009CC182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		416EBE9A22B145E9009CC182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416EBE9D22B145E9009CC182 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		416EBEA022B145E9009CC182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		416EBEA222B145E9009CC182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		411BE72722C0F36C00D6DE0D /* Frameworks */ = {
+		416EBE8E22B145E7009CC182 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,128 +43,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		411BE72122C0F36C00D6DE0D = {
+		416EBE8822B145E7009CC182 = {
 			isa = PBXGroup;
 			children = (
-				411BE72C22C0F36C00D6DE0D /* Timer */,
-				411BE72B22C0F36C00D6DE0D /* Products */,
+				416EBE9322B145E7009CC182 /* Timer */,
+				416EBE9222B145E7009CC182 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		411BE72B22C0F36C00D6DE0D /* Products */ = {
+		416EBE9222B145E7009CC182 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				411BE72A22C0F36C00D6DE0D /* Timer.app */,
+				416EBE9122B145E7009CC182 /* Rooms.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		411BE72C22C0F36C00D6DE0D /* Timer */ = {
+		416EBE9322B145E7009CC182 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				411BE72D22C0F36C00D6DE0D /* AppDelegate.swift */,
-				411BE72F22C0F36C00D6DE0D /* SceneDelegate.swift */,
-				411BE73122C0F36C00D6DE0D /* ViewController.swift */,
-				411BE73322C0F36C00D6DE0D /* Main.storyboard */,
-				411BE73622C0F36D00D6DE0D /* Assets.xcassets */,
-				411BE73822C0F36D00D6DE0D /* LaunchScreen.storyboard */,
-				411BE73B22C0F36D00D6DE0D /* Info.plist */,
+				4113F0F822B26247007CBEC7 /* RoomDetail.swift */,
+				416EBE9422B145E7009CC182 /* AppDelegate.swift */,
+				416EBE9622B145E7009CC182 /* SceneDelegate.swift */,
+				416EBE9822B145E7009CC182 /* ContentView.swift */,
+				4113F0F622B259D1007CBEC7 /* Room.xcassets */,
+				4113F0F122B23DB4007CBEC7 /* Room.swift */,
+				416EBE9A22B145E9009CC182 /* Assets.xcassets */,
+				416EBE9F22B145E9009CC182 /* LaunchScreen.storyboard */,
+				416EBEA222B145E9009CC182 /* Info.plist */,
+				416EBE9C22B145E9009CC182 /* Preview Content */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		416EBE9C22B145E9009CC182 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				416EBE9D22B145E9009CC182 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		411BE72922C0F36C00D6DE0D /* Timer */ = {
+		416EBE9022B145E7009CC182 /* Rooms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 411BE73E22C0F36D00D6DE0D /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildConfigurationList = 416EBEA522B145E9009CC182 /* Build configuration list for PBXNativeTarget "Rooms" */;
 			buildPhases = (
-				411BE72622C0F36C00D6DE0D /* Sources */,
-				411BE72722C0F36C00D6DE0D /* Frameworks */,
-				411BE72822C0F36C00D6DE0D /* Resources */,
+				416EBE8D22B145E7009CC182 /* Sources */,
+				416EBE8E22B145E7009CC182 /* Frameworks */,
+				416EBE8F22B145E7009CC182 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Timer;
+			name = Rooms;
 			productName = Timer;
-			productReference = 411BE72A22C0F36C00D6DE0D /* Timer.app */;
+			productReference = 416EBE9122B145E7009CC182 /* Rooms.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		411BE72222C0F36C00D6DE0D /* Project object */ = {
+		416EBE8922B145E7009CC182 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Lee Morales";
 				TargetAttributes = {
-					411BE72922C0F36C00D6DE0D = {
+					416EBE9022B145E7009CC182 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 411BE72522C0F36C00D6DE0D /* Build configuration list for PBXProject "Timer" */;
-			compatibilityVersion = "Xcode 11.0";
+			buildConfigurationList = 416EBE8C22B145E7009CC182 /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 411BE72122C0F36C00D6DE0D;
-			productRefGroup = 411BE72B22C0F36C00D6DE0D /* Products */;
+			mainGroup = 416EBE8822B145E7009CC182;
+			productRefGroup = 416EBE9222B145E7009CC182 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				411BE72922C0F36C00D6DE0D /* Timer */,
+				416EBE9022B145E7009CC182 /* Rooms */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		411BE72822C0F36C00D6DE0D /* Resources */ = {
+		416EBE8F22B145E7009CC182 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411BE73A22C0F36D00D6DE0D /* LaunchScreen.storyboard in Resources */,
-				411BE73722C0F36D00D6DE0D /* Assets.xcassets in Resources */,
-				411BE73522C0F36C00D6DE0D /* Main.storyboard in Resources */,
+				416EBEA122B145E9009CC182 /* LaunchScreen.storyboard in Resources */,
+				416EBE9E22B145E9009CC182 /* Preview Assets.xcassets in Resources */,
+				4113F0F722B259D1007CBEC7 /* Room.xcassets in Resources */,
+				416EBE9B22B145E9009CC182 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		411BE72622C0F36C00D6DE0D /* Sources */ = {
+		416EBE8D22B145E7009CC182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411BE73222C0F36C00D6DE0D /* ViewController.swift in Sources */,
-				411BE72E22C0F36C00D6DE0D /* AppDelegate.swift in Sources */,
-				411BE73022C0F36C00D6DE0D /* SceneDelegate.swift in Sources */,
+				4113F0F922B26247007CBEC7 /* RoomDetail.swift in Sources */,
+				416EBE9522B145E7009CC182 /* AppDelegate.swift in Sources */,
+				416EBE9722B145E7009CC182 /* SceneDelegate.swift in Sources */,
+				4113F0F222B23DB4007CBEC7 /* Room.swift in Sources */,
+				416EBE9922B145E7009CC182 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		411BE73322C0F36C00D6DE0D /* Main.storyboard */ = {
+		416EBE9F22B145E9009CC182 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				411BE73422C0F36C00D6DE0D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		411BE73822C0F36D00D6DE0D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				411BE73922C0F36D00D6DE0D /* Base */,
+				416EBEA022B145E9009CC182 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		411BE73C22C0F36D00D6DE0D /* Debug */ = {
+		416EBEA322B145E9009CC182 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		411BE73D22C0F36D00D6DE0D /* Release */ = {
+		416EBEA422B145E9009CC182 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,39 +292,48 @@
 			};
 			name = Release;
 		};
-		411BE73F22C0F36D00D6DE0D /* Debug */ = {
+		416EBEA622B145E9009CC182 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rooms.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator13.0]" = Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Timer/Preview\\ Content";
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lee.Timer;
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.Rooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		411BE74022C0F36D00D6DE0D /* Release */ = {
+		416EBEA722B145E9009CC182 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Timer/Preview\\ Content";
 				DEVELOPMENT_TEAM = ZR2RHJLP29;
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Timer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lee.Timer;
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.Rooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -321,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		411BE72522C0F36C00D6DE0D /* Build configuration list for PBXProject "Timer" */ = {
+		416EBE8C22B145E7009CC182 /* Build configuration list for PBXProject "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				411BE73C22C0F36D00D6DE0D /* Debug */,
-				411BE73D22C0F36D00D6DE0D /* Release */,
+				416EBEA322B145E9009CC182 /* Debug */,
+				416EBEA422B145E9009CC182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		411BE73E22C0F36D00D6DE0D /* Build configuration list for PBXNativeTarget "Timer" */ = {
+		416EBEA522B145E9009CC182 /* Build configuration list for PBXNativeTarget "Rooms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				411BE73F22C0F36D00D6DE0D /* Debug */,
-				411BE74022C0F36D00D6DE0D /* Release */,
+				416EBEA622B145E9009CC182 /* Debug */,
+				416EBEA722B145E9009CC182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 411BE72222C0F36C00D6DE0D /* Project object */;
+	rootObject = 416EBE8922B145E7009CC182 /* Project object */;
 }
