@@ -20,8 +20,10 @@ class ViewController: UIViewController {
     
     @IBOutlet private weak var flipCountLabel: UILabel!
     
-    @IBOutlet private var cardButtons: [UIButton]!
+    @IBOutlet private var ResetButton: [UIButton]!
     
+    @IBOutlet private var cardButtons: [UIButton]!
+        
     @IBAction private func touchCard(_ sender: UIButton) {
             flipCount += 1
         if let cardNumber = cardButtons.firstIndex(of:sender) {
