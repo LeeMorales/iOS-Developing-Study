@@ -27,7 +27,7 @@
 		41BB8AB2227C88E9008DBF7E /* Contents.json */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		41BB8AB5227C88E9008DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BB8AB7227C88E9008DBF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AF3851D230211A900CA2338 /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemiles/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
+		9A5808A6231EF6330082EAED /* Concentraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Concentraction.app; path = "/Users/leemiles/Developer/iOS-Developing-Study/Concentraction/build/Debug-iphoneos/Concentraction.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 			);
 			name = Concentraction;
 			productName = Concentraction;
-			productReference = 9AF3851D230211A900CA2338 /* Concentraction.app */;
+			productReference = 9A5808A6231EF6330082EAED /* Concentraction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
