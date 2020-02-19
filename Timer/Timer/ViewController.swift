@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var Countdowntimer: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
     }
 
-
+    @IBAction func StartButton(_ sender: Any) {
+        for ()
+        {
+            action.start.
+        }
+    }
+    
 }
 
