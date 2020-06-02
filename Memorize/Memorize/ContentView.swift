@@ -43,7 +43,7 @@ struct CardView: View
       {
         RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
         RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth:3)
-        Text(card.content)
+        Text(card.content) 
       }
       else
       {
@@ -52,35 +52,6 @@ struct CardView: View
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
